@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
@@ -23,7 +23,6 @@ namespace DatingAppWebApi.Controllers
     {
         private IAuthRepository _repo;
         private IConfiguration _config;
-
         private IMapper _mapper;
         
         public AuthController(IAuthRepository repository,IConfiguration configuration, IMapper mapper)
