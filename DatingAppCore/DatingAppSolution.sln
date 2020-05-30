@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatingAppWebApi", "DatingAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatingAppDal", "DatingAppDal\DatingAppDal.csproj", "{678CC941-3561-460B-B697-85181D5A0A9E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{B7497A18-B624-4FDE-9074-E34A55909248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitWorker", "GitWorker\GitWorker.csproj", "{0DDC7715-6627-4096-B563-3931FF04D254}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +25,16 @@ Global
 		{678CC941-3561-460B-B697-85181D5A0A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{678CC941-3561-460B-B697-85181D5A0A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{678CC941-3561-460B-B697-85181D5A0A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DDC7715-6627-4096-B563-3931FF04D254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDC7715-6627-4096-B563-3931FF04D254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDC7715-6627-4096-B563-3931FF04D254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDC7715-6627-4096-B563-3931FF04D254}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DDC7715-6627-4096-B563-3931FF04D254} = {B7497A18-B624-4FDE-9074-E34A55909248}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0679E5C4-9EF5-430C-A0DA-4CF583145B0B}
